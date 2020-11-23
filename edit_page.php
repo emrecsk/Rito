@@ -54,7 +54,6 @@ session_start();
         <button class="fas fa-link" type="button" name="link" style='font-size:24px' onclick="addlink()" title="ADD LINK"></button>
         <button class="fas fa-cut" type="button" name="cut" style='font-size:24px' onclick="document.execCommand('cut', false, '');" title="CUT"></button>
         <button class="fas fa-print" type="button" name="print" style='font-size:24px' onclick="printMe('textarea'); return false;" title="PRINT TEXT"></button>
-        <input type="hidden" id="page" value="7">
         <button class="fas fa-strikethrough" type="button" name="button" style='font-size:24px' onclick="document.execCommand('strikeThrough', false, '');" title="STRIKETHROUGH"></button>
         <button class="fas fa-list-ol" style='font-size:24px'onclick="document.execCommand('insertOrderedList', false, '');" title="ORDERED LIST"></button>
         <button class="fas fa-list-ul" style='font-size:24px'onclick="document.execCommand('insertUnorderedList', false, '');" title="INORDERED LIST"></button>
